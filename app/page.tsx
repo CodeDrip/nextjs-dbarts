@@ -1,3 +1,5 @@
+import { DiagonalShapesMarquee } from "@/components/DiagonalShapesMarquee";
+import { AboutSection } from "@/sections/AboutSection";
 import { HeroSection } from "@/sections/HeroSection";
 import React from "react";
 
@@ -5,9 +7,11 @@ const Home = () => {
   console.log('what am i?')
   return (
     <main>
-      <div>Next.js Demo page</div>
       <HeroSection />
+      <DiagonalShapesMarquee />
+      <AboutSection />
     </main>
+
   )
 }
 export default Home
