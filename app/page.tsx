@@ -1,6 +1,7 @@
 import { DiagonalShapesMarquee } from "@/components/DiagonalShapesMarquee";
 import { AboutSection } from "@/sections/AboutSection";
 import { HeroSection } from "@/sections/HeroSection";
+import { ProgramsSection } from "@/sections/ProgramsSection";
 import React from "react";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <HeroSection />
       <DiagonalShapesMarquee />
       <AboutSection />
+      <ProgramsSection />
     </main>
 
   )

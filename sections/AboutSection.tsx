@@ -38,12 +38,12 @@ export function AboutSection() {
       />
 
       {/* Diagonal parallelograms */}
-      <div className="absolute right-[5%] top-[20%] hidden md:block">
+      {/* <div className="absolute right-[5%] top-[20%] hidden md:block">
         <ParallelogramSVG color="#83d4db" driftDirection="right" />
       </div>
       <div className="absolute right-[15%] bottom-[10%] hidden md:block">
         <ParallelogramSVG color="#8ae900" driftDirection="left" />
-      </div>
+      </div> */}
 
       <div className="container-dba py-12 md:py-24">
         <SectionTitle title="Our Mission" accent="- empowering communities -" centered={false} />

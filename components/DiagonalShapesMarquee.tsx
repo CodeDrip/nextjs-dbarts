@@ -3,6 +3,7 @@
 import { useMultipleColorCycle } from './hooks/useColorCycle';
 
 export function DiagonalShapesMarquee() {
+  
   const colors = useMultipleColorCycle(5, 3000);
 
   return (
