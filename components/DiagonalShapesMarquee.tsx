@@ -13,7 +13,7 @@ export function DiagonalShapesMarquee() {
           <svg
             key={i}
             width={i % 2 === 0 ? 70 : 50}
-            height={i % 2 === 0 ? 380 : 280}
+            height={i % 2 === 0 ? 180 : 80}
             viewBox={`0 0 ${i % 2 === 0 ? 70 : 50} ${i % 2 === 0 ? 380 : 280}`}
             className={i % 2 === 0 ? 'animate-drift-right' : 'animate-drift-left'}
             style={{ willChange: 'transform', marginLeft: i > 0 ? '-20px' : '0' }}
